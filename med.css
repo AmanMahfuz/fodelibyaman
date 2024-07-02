@@ -1,0 +1,540 @@
+@media screen and (min-width:100px) and (max-width:450px) {
+    *{
+        overflow-x: hidden;
+    }
+    .nav{
+        width: 100%;
+        height: min-content;
+        justify-content: center;
+    }
+    .nav .mid ul{
+        display: none ;
+    }
+    .container{
+        /* display: none; */
+        width: 100%;
+
+
+    }
+    .nav .left {
+        gap: 10px;
+        margin-left: 30px;
+        width: 150px !important;
+        /* font-size: 10px; */
+    }
+    .nav .left h4{
+        font-size: 10px;
+    }
+    .nav .right {
+        margin-right: 30px;
+        width: 70%;
+        gap: 10px;
+    }
+    .nav .right .bag{
+        display: none;
+        
+    }
+    .home{
+        flex-direction: column;
+        
+        /* margin: 0; */
+        /* margin-left: 20px; */
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        height: min-content;
+    }
+    .home .top{
+        margin-left: 10px;
+    }
+    .home .content h1{
+        font-size: 60px;
+        width: 100%;
+    }
+    .home .content p{
+        font-size: 18px;
+        /* width: 343px; */
+    }
+    .home .bottom{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .home .bottom .subbottom{
+        flex-direction: row;
+        /* margin-left: 60px; */
+        padding-left: 40px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .home .content{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .home .imgr img{
+        width: 100%;
+        object-fit: contain;
+        margin-top: 40px;
+    }
+    .home .bottom button{
+        background-color: #eb0029;
+        padding: 24px 120px;
+        font-size: 15px;
+    }
+    .spotlight{
+        height: min-content;
+        margin-left:0px;
+        margin-right: 10px;
+        margin-top: 230px;
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 70px;
+    }
+    .spotlight .top h4{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .spotlight .top h1{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .spotlight .mid{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .spotlight .mid img{
+        width: 250px;
+    }
+    .spotlight .mid h1{
+        width: 100%;
+        text-align: center;
+    }
+    .spotlight .mid p{
+        width: 100%;
+    }
+    .spotlight2{
+        margin: 0 auto;
+        margin-top: 20px;
+        height: min-content;
+        width: 100%;
+
+    }
+    .spotlight2 .menu .second,.third,.fourth{
+        display: none;
+    }
+    .spotlight2 .menu .first .content{
+        margin-top: -40vh;
+
+    }
+    .spotlight3 .right1{
+        width: 100%;
+    }
+    .spotlight3 .right1 h6,h1,p{
+        width: 100%;
+    }
+    .spotlight3 .right1 p{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .spotlight3{
+        margin-top: 00px;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        width: 100%;
+        height: min-content;
+        align-items: center;
+    }
+    .spotlight3 .left1{
+    }
+    .spotlight3 .cheff{
+        width: 350px;
+        
+    }
+    .spotlight3 .right1{
+        width: 350px;
+        text-align: center;
+    }
+    .spotlight3 .right1 .sub1{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .getapp{
+        margin-top: 30px;
+        flex-direction: column;
+        height: 130vh;
+        width: 95%;
+        justify-content: center;
+        height: min-content;
+    }
+    .getapp .left {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .getapp .left h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .getapp .left p{
+        width: 295px;
+        font-size: 20px;
+    }
+    .getapp .left button{
+        padding: 20px 80px;
+        margin-bottom: 30px;
+    }
+    .getapp .rightimg img{
+        width: 330px;
+        margin-left: 30px;
+    }
+    footer{
+        flex-direction: column;
+        height: min-content;
+    }
+    footer .left{
+        width: 100%;
+    }
+    footer .left1{
+        width: 150px !important;
+    }
+    footer .rig{
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    footer .rig .touch{
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        margin-top: 0vh;
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:370px) {
+    .home{
+        margin-top: 30px;
+    }
+    .home .bottom button{
+        background-color: #eb0029;
+        padding: 24px 100px;
+        font-size: 15px;
+    }
+    .spotlight .top h1{
+        font-size: 30px;
+    }
+    .spotlight3 .right1 p{
+        margin: 0;
+    }
+    footer .rig .touch {
+        width: 33%;
+    }
+    footer .rig .touch button{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:650px){
+    *{
+        overflow-x:hidden ;
+    }
+    .nav{
+        width: 100%;
+
+    }
+    .nav .mid{
+
+
+        display: none;
+    }
+    .nav .right{
+        /* margin-right: 45px ; */
+        width: 40% ;
+        
+    }
+    .home{
+        width: 90%;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 30px !important;
+        height: min-content;
+    }
+    .home .top{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .home .content h1{
+        font-size: 60px;
+        width: 710px;
+        font-weight: bolder;
+    }
+    .home .content p{
+        font-size: 18px;
+        width: 710px;
+        font-family: "Poppins", sans-serif;
+    }
+    .home .bottom{
+        flex-direction: column;
+        align-items: center;
+        max-width: 710px;
+
+    }
+    .home .bottom .subbottom{
+        display: flex;
+        flex-direction: row;
+        width: 24%;
+        justify-content: center;
+        margin-top: -20px;
+    }
+    .home .subbottom .watch{
+        width: 40%;
+    }
+    .home .content{
+        width: 100%;
+    }
+    .home .content h1 {
+        width: 90%;
+    }
+    .home .content p {
+        width: 90%;
+    }
+    .home .imgr img{
+        width: 100%;
+        object-fit: contain;
+        margin-top: 40px;
+    }
+    .home .bottom button{
+        background-color: #eb0029;
+        padding: 24px 120px;
+        font-size: 15px;
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 30px;
+    }
+    .spotlight{
+        margin-top: 20px;
+        height: min-content;
+        width: 90%;
+    }
+    .spotlight .top{
+        width: 100%;
+    }
+    .spotlight .mid{
+        flex-direction: column;
+    }
+    .spotlight .mid p{
+        margin: 0 auto;
+    }
+    .spotlight2{
+        height: min-content;
+        width: 90%;
+    }
+    .spotlight2 .menu{
+
+        width: 100%;
+        justify-content: center;
+    }
+    .spotlight2 .menu .second,.third,.fourth{
+        display: none;
+
+    }
+    .spotlight3{
+        height: min-content;
+        width: 90%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .spotlight3 .right1{
+        width: 100%;
+    }
+    .spotlight3 .right1 p{
+        margin: 0 auto;
+    }
+    .spotlight3 .sub1{
+        width: 100%;
+        justify-content: center;
+    }
+    .spotlight3 .star{
+        margin: 0 auto;
+    }
+    .getapp{
+        flex-direction: column;
+        height: min-content;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+    .getapp .left{
+        width: 100%;
+    }
+    .getapp .left h1 ,p, button{
+        width: 90%;
+        margin-right: 30px;
+    }
+    .getapp .left button{
+        width: 90%;
+        
+    }
+    .getapp .rightimg{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .getapp .rightimg img{
+        margin: 0 auto;
+    }
+    footer{
+        flex-direction: column;
+        height: min-content;
+    }
+    footer .left{
+        width: 100%;
+    }
+    footer .left1 h4{
+        width: 100%;
+    }
+    footer .rig{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+
+    }
+    footer .rig .touch{
+        width: 60%;
+    }
+    .foot{
+        padding-bottom: 100px;
+    }
+}
+@media screen and (min-width:651px) and (max-width:900px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav .mid{
+        display: none;
+    }
+    .home{
+        height: min-content;
+        margin-top: 30px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home .top{
+        margin: 0 auto;
+    }
+    .home .right img{
+        width: 100%;
+    }
+    .spotlight {
+        height: min-content;
+        width: 100%;
+    }
+    .spotlight .mid p , h1{
+        width: 100%;
+        text-align: center;
+    }
+    .spotlight .mid .box2 , .box1 h1{
+        margin-top: 60px;
+    }
+    .spotlight .mid .box2  h1{
+        margin-top: 20px;
+    }
+    .spotlight img{
+        width: 100%;
+    }
+    .spotlight2{
+        height: min-content;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .spotlight2 .menu{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        
+        /* margin: auto; */
+        width: 100%;
+        margin-top: 30px;
+        /* margin-left: 50px; */
+
+
+    }
+    .spotlight2 .menu img{
+        width: 80% !important;
+    }
+    .spotlight3{
+        height: min-content;
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    .spotlight3 .right1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .spotlight3 .sub1{
+        width: 100%;
+        margin-left: 230px;
+    }
+    .getapp{
+        height: max-content;
+        width: 100%;
+        
+    }
+    .getapp .left{
+        margin-bottom: 20px;
+        text-align: left !important;
+    }
+    .getapp .left h1{
+        text-align: left !important;
+    }
+    footer{
+        height: min-content;
+        width: 100%;
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    footer .left{
+        width: 100%;
+        text-align: center;
+    }
+    footer .left .left1{
+        margin: 0 auto;
+    }
+    footer .left .ri{
+        width: 100%;
+        justify-content: center;
+    }
+    footer .rig{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .foot{
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1300px){
+    *{
+        overflow-x: hidden;
+    }
+    .home{
+        width: 100%;
+        height: min-content;
+    }
+
+    .home .imgr img{
+        width: 80%;
+    }
+}
