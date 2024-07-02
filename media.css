@@ -161,8 +161,7 @@
         height: min-content;
         align-items: center;
     }
-    .spotlight3 .left1{
-    }
+    
     .spotlight3 .cheff{
         width: 350px;
         
@@ -613,9 +612,7 @@
         height: min-content;
         width: 100%;
     }
-    .spotlight3 p{
-        /* width: 100%; */
-    }
+    
     .spotlight3 .sub1{
         width: 40%;
         border-radius: 0% !important;
@@ -690,9 +687,7 @@
         margin-top: 50px !important;
         align-items: center;
     }
-    .spotlight2 .menu img{
-
-    }
+    
     .spotlight3{
         width: 90%;
         height: min-content;
